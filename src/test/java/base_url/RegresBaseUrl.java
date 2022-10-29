@@ -10,8 +10,10 @@ public class RegresBaseUrl {
 
     @Before
     public void setup() {
-        spec = new RequestSpecBuilder().setBaseUri("https://reqres.in").build();
+        spec = new RequestSpecBuilder().setBaseUri("https://reqres.in/api").build();
     }
+
+
 }
 
 
